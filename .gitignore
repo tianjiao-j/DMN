@@ -1,0 +1,9 @@
+.idea/
+clip/__pycache__/
+data/__pycache__/
+scripts/camera_ready_dmn_searched_vit_0.txt
+scripts/camera_ready_dmn_tf_searched_vit_0.txt
+scripts/~/
+utils/__pycache__/__init__.cpython-39.pyc
+utils/__pycache__/tools.cpython-39.pyc
+~/
