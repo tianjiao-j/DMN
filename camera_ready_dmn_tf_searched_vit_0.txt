@@ -256,3 +256,285 @@ I	Flower102	DTD	Pets	Cars	UCF101	Caltech101	Food101	SUN397	Aircraft	eurosat	mean
 
 1.000	3.000	3.000	0.300	1.000	1.000	1.000	1.000	1.000	3.000	1.000	16.300	
 
+processing the datasetI 
+	processing the datasetI 
+	processing the datasetI 
+	processing the datasetI 
+	processing the datasetI 
+	processing the datasetI 
+	processing the datasetDTD 
+	lr: 0.1, epoch:20, num_important_channel0, lambda_ape: 0.3, best acc54.61 
+	{"data": "../Tip-Adapter/data", "test_sets": "DTD", "dataset_mode": "test", "arch": "ViT-B/16", "resolution": 224, "workers": 4, "batch_size": 32, "print_freq": 200, "gpu": 0, "selection_p": 0.1, "n_ctx": 4, "ctx_init": "a_photo_of_a", "load": null, "seed": 0, "n_shot": 0, "n_augview": 0, "ft": false, "use_searched_param": true, "beta": 5.5, "mapping": "bias", "position": "all", "optimizer": "adamw", "eps": 1e-08, "wd": 0.0001, "lr": 0.1, "epoch": 20, "shared_param": false, "num_important_channel": 0, "lambda_ape": 0.3, "memory_size": 50, "text_prompt": "tip_cupl", "log": "camera_ready_dmn_tf_searched_vit_0", "set_id": "DTD", "indice": 0}
+======== Result Summary ========
+params: bs	lr	selection_p
+params: 32	0.1	0.1
+		 [set_id] 		 Top-1 acc. 		 Top-1 local acc, 		 Top-1 global acc 		 Searched acc 		 beta 		 gama.
+DTD	mean	
+
+53.310	53.310	
+
+54.492	54.492	
+
+0.000	0.000	
+
+54.610	54.610	
+
+1.000	1.000	
+
+10.000	10.000	
+
+0.000	0.000	
+
+processing the datasetDTD 
+	lr: 0.1, epoch:20, num_important_channel0, lambda_ape: 0.3, best acc57.51 
+	{"data": "../Tip-Adapter/data", "test_sets": "DTD", "dataset_mode": "test", "arch": "ViT-B/16", "resolution": 224, "workers": 4, "batch_size": 32, "print_freq": 200, "gpu": 0, "selection_p": 0.1, "n_ctx": 4, "ctx_init": "a_photo_of_a", "load": null, "seed": 0, "n_shot": 1, "n_augview": 0, "ft": false, "use_searched_param": true, "beta": 5.5, "mapping": "bias", "position": "all", "optimizer": "adamw", "eps": 1e-08, "wd": 0.0001, "lr": 0.1, "epoch": 20, "shared_param": false, "num_important_channel": 0, "lambda_ape": 0.3, "memory_size": 50, "text_prompt": "tip_cupl", "log": "camera_ready_dmn_tf_searched_vit_0", "set_id": "DTD", "indice": 0}
+======== Result Summary ========
+params: bs	lr	selection_p
+params: 32	0.1	0.1
+		 [set_id] 		 Top-1 acc. 		 Top-1 local acc, 		 Top-1 global acc 		 Searched acc 		 beta 		 gama.
+DTD	mean	
+
+53.310	53.310	
+
+55.969	55.969	
+
+32.683	32.683	
+
+57.506	57.506	
+
+1.000	1.000	
+
+300.000	300.000	
+
+300.000	300.000	
+
+processing the datasetDTD 
+	lr: 0.1, epoch:20, num_important_channel0, lambda_ape: 0.3, best acc60.70 
+	{"data": "../Tip-Adapter/data", "test_sets": "DTD", "dataset_mode": "test", "arch": "ViT-B/16", "resolution": 224, "workers": 4, "batch_size": 32, "print_freq": 200, "gpu": 0, "selection_p": 0.1, "n_ctx": 4, "ctx_init": "a_photo_of_a", "load": null, "seed": 0, "n_shot": 2, "n_augview": 0, "ft": false, "use_searched_param": true, "beta": 5.5, "mapping": "bias", "position": "all", "optimizer": "adamw", "eps": 1e-08, "wd": 0.0001, "lr": 0.1, "epoch": 20, "shared_param": false, "num_important_channel": 0, "lambda_ape": 0.3, "memory_size": 50, "text_prompt": "tip_cupl", "log": "camera_ready_dmn_tf_searched_vit_0", "set_id": "DTD", "indice": 0}
+======== Result Summary ========
+params: bs	lr	selection_p
+params: 32	0.1	0.1
+		 [set_id] 		 Top-1 acc. 		 Top-1 local acc, 		 Top-1 global acc 		 Searched acc 		 beta 		 gama.
+DTD	mean	
+
+53.310	53.310	
+
+56.974	56.974	
+
+48.759	48.759	
+
+60.697	60.697	
+
+1.000	1.000	
+
+1000.000	1000.000	
+
+1000.000	1000.000	
+
+processing the datasetDTD 
+	lr: 0.1, epoch:20, num_important_channel0, lambda_ape: 0.3, best acc64.07 
+	{"data": "../Tip-Adapter/data", "test_sets": "DTD", "dataset_mode": "test", "arch": "ViT-B/16", "resolution": 224, "workers": 4, "batch_size": 32, "print_freq": 200, "gpu": 0, "selection_p": 0.1, "n_ctx": 4, "ctx_init": "a_photo_of_a", "load": null, "seed": 0, "n_shot": 4, "n_augview": 0, "ft": false, "use_searched_param": true, "beta": 5.5, "mapping": "bias", "position": "all", "optimizer": "adamw", "eps": 1e-08, "wd": 0.0001, "lr": 0.1, "epoch": 20, "shared_param": false, "num_important_channel": 0, "lambda_ape": 0.3, "memory_size": 50, "text_prompt": "tip_cupl", "log": "camera_ready_dmn_tf_searched_vit_0", "set_id": "DTD", "indice": 0}
+======== Result Summary ========
+params: bs	lr	selection_p
+params: 32	0.1	0.1
+		 [set_id] 		 Top-1 acc. 		 Top-1 local acc, 		 Top-1 global acc 		 Searched acc 		 beta 		 gama.
+DTD	mean	
+
+53.310	53.310	
+
+58.274	58.274	
+
+55.201	55.201	
+
+64.066	64.066	
+
+1.000	1.000	
+
+1000.000	1000.000	
+
+1000.000	1000.000	
+
+processing the datasetDTD 
+	lr: 0.1, epoch:20, num_important_channel0, lambda_ape: 0.3, best acc67.38 
+	{"data": "../Tip-Adapter/data", "test_sets": "DTD", "dataset_mode": "test", "arch": "ViT-B/16", "resolution": 224, "workers": 4, "batch_size": 32, "print_freq": 200, "gpu": 0, "selection_p": 0.1, "n_ctx": 4, "ctx_init": "a_photo_of_a", "load": null, "seed": 0, "n_shot": 8, "n_augview": 0, "ft": false, "use_searched_param": true, "beta": 5.5, "mapping": "bias", "position": "all", "optimizer": "adamw", "eps": 1e-08, "wd": 0.0001, "lr": 0.1, "epoch": 20, "shared_param": false, "num_important_channel": 0, "lambda_ape": 0.3, "memory_size": 50, "text_prompt": "tip_cupl", "log": "camera_ready_dmn_tf_searched_vit_0", "set_id": "DTD", "indice": 0}
+======== Result Summary ========
+params: bs	lr	selection_p
+params: 32	0.1	0.1
+		 [set_id] 		 Top-1 acc. 		 Top-1 local acc, 		 Top-1 global acc 		 Searched acc 		 beta 		 gama.
+DTD	mean	
+
+53.310	53.310	
+
+59.574	59.574	
+
+62.943	62.943	
+
+67.376	67.376	
+
+1.000	1.000	
+
+0.300	0.300	
+
+1.000	1.000	
+
+processing the datasetDTD 
+	lr: 0.1, epoch:20, num_important_channel0, lambda_ape: 0.3, best acc69.44 
+	{"data": "../Tip-Adapter/data", "test_sets": "DTD", "dataset_mode": "test", "arch": "ViT-B/16", "resolution": 224, "workers": 4, "batch_size": 32, "print_freq": 200, "gpu": 0, "selection_p": 0.1, "n_ctx": 4, "ctx_init": "a_photo_of_a", "load": null, "seed": 0, "n_shot": 16, "n_augview": 0, "ft": false, "use_searched_param": true, "beta": 5.5, "mapping": "bias", "position": "all", "optimizer": "adamw", "eps": 1e-08, "wd": 0.0001, "lr": 0.1, "epoch": 20, "shared_param": false, "num_important_channel": 0, "lambda_ape": 0.3, "memory_size": 50, "text_prompt": "tip_cupl", "log": "camera_ready_dmn_tf_searched_vit_0", "set_id": "DTD", "indice": 0}
+======== Result Summary ========
+params: bs	lr	selection_p
+params: 32	0.1	0.1
+		 [set_id] 		 Top-1 acc. 		 Top-1 local acc, 		 Top-1 global acc 		 Searched acc 		 beta 		 gama.
+DTD	mean	
+
+53.310	53.310	
+
+63.771	63.771	
+
+67.494	67.494	
+
+69.444	69.444	
+
+1.000	1.000	
+
+1.000	1.000	
+
+3.000	3.000	
+
+processing the datasetDTD 
+	lr: 0.1, epoch:20, num_important_channel0, lambda_ape: 0.3, best acc50.06 
+	{"data": "../Tip-Adapter/data", "test_sets": "DTD", "dataset_mode": "test", "arch": "RN50", "resolution": 224, "workers": 4, "batch_size": 32, "print_freq": 200, "gpu": 0, "selection_p": 0.1, "n_ctx": 4, "ctx_init": "a_photo_of_a", "load": null, "seed": 0, "n_shot": 0, "n_augview": 0, "ft": false, "use_searched_param": true, "beta": 5.5, "mapping": "bias", "position": "all", "optimizer": "adamw", "eps": 1e-08, "wd": 0.0001, "lr": 0.1, "epoch": 20, "shared_param": false, "num_important_channel": 0, "lambda_ape": 0.3, "memory_size": 50, "text_prompt": "tip_cupl", "log": "camera_ready_dmn_tf_searched_vit_0", "set_id": "DTD", "indice": 0}
+======== Result Summary ========
+params: bs	lr	selection_p
+params: 32	0.1	0.1
+		 [set_id] 		 Top-1 acc. 		 Top-1 local acc, 		 Top-1 global acc 		 Searched acc 		 beta 		 gama.
+DTD	mean	
+
+48.641	48.641	
+
+49.527	49.527	
+
+0.000	0.000	
+
+50.059	50.059	
+
+1.000	1.000	
+
+0.300	0.300	
+
+0.000	0.000	
+
+processing the datasetDTD 
+	lr: 0.1, epoch:20, num_important_channel0, lambda_ape: 0.3, best acc52.72 
+	{"data": "../Tip-Adapter/data", "test_sets": "DTD", "dataset_mode": "test", "arch": "RN50", "resolution": 224, "workers": 4, "batch_size": 32, "print_freq": 200, "gpu": 0, "selection_p": 0.1, "n_ctx": 4, "ctx_init": "a_photo_of_a", "load": null, "seed": 0, "n_shot": 1, "n_augview": 0, "ft": false, "use_searched_param": true, "beta": 5.5, "mapping": "bias", "position": "all", "optimizer": "adamw", "eps": 1e-08, "wd": 0.0001, "lr": 0.1, "epoch": 20, "shared_param": false, "num_important_channel": 0, "lambda_ape": 0.3, "memory_size": 50, "text_prompt": "tip_cupl", "log": "camera_ready_dmn_tf_searched_vit_0", "set_id": "DTD", "indice": 0}
+======== Result Summary ========
+params: bs	lr	selection_p
+params: 32	0.1	0.1
+		 [set_id] 		 Top-1 acc. 		 Top-1 local acc, 		 Top-1 global acc 		 Searched acc 		 beta 		 gama.
+DTD	mean	
+
+48.641	48.641	
+
+50.887	50.887	
+
+29.610	29.610	
+
+52.719	52.719	
+
+1.000	1.000	
+
+0.100	0.100	
+
+0.300	0.300	
+
+processing the datasetDTD 
+	lr: 0.1, epoch:20, num_important_channel0, lambda_ape: 0.3, best acc55.14 
+	{"data": "../Tip-Adapter/data", "test_sets": "DTD", "dataset_mode": "test", "arch": "RN50", "resolution": 224, "workers": 4, "batch_size": 32, "print_freq": 200, "gpu": 0, "selection_p": 0.1, "n_ctx": 4, "ctx_init": "a_photo_of_a", "load": null, "seed": 0, "n_shot": 2, "n_augview": 0, "ft": false, "use_searched_param": true, "beta": 5.5, "mapping": "bias", "position": "all", "optimizer": "adamw", "eps": 1e-08, "wd": 0.0001, "lr": 0.1, "epoch": 20, "shared_param": false, "num_important_channel": 0, "lambda_ape": 0.3, "memory_size": 50, "text_prompt": "tip_cupl", "log": "camera_ready_dmn_tf_searched_vit_0", "set_id": "DTD", "indice": 0}
+======== Result Summary ========
+params: bs	lr	selection_p
+params: 32	0.1	0.1
+		 [set_id] 		 Top-1 acc. 		 Top-1 local acc, 		 Top-1 global acc 		 Searched acc 		 beta 		 gama.
+DTD	mean	
+
+48.641	48.641	
+
+51.241	51.241	
+
+44.563	44.563	
+
+55.142	55.142	
+
+1.000	1.000	
+
+3.000	3.000	
+
+3.000	3.000	
+
+processing the datasetDTD 
+	lr: 0.1, epoch:20, num_important_channel0, lambda_ape: 0.3, best acc58.04 
+	{"data": "../Tip-Adapter/data", "test_sets": "DTD", "dataset_mode": "test", "arch": "RN50", "resolution": 224, "workers": 4, "batch_size": 32, "print_freq": 200, "gpu": 0, "selection_p": 0.1, "n_ctx": 4, "ctx_init": "a_photo_of_a", "load": null, "seed": 0, "n_shot": 4, "n_augview": 0, "ft": false, "use_searched_param": true, "beta": 5.5, "mapping": "bias", "position": "all", "optimizer": "adamw", "eps": 1e-08, "wd": 0.0001, "lr": 0.1, "epoch": 20, "shared_param": false, "num_important_channel": 0, "lambda_ape": 0.3, "memory_size": 50, "text_prompt": "tip_cupl", "log": "camera_ready_dmn_tf_searched_vit_0", "set_id": "DTD", "indice": 0}
+======== Result Summary ========
+params: bs	lr	selection_p
+params: 32	0.1	0.1
+		 [set_id] 		 Top-1 acc. 		 Top-1 local acc, 		 Top-1 global acc 		 Searched acc 		 beta 		 gama.
+DTD	mean	
+
+48.641	48.641	
+
+52.896	52.896	
+
+52.896	52.896	
+
+58.038	58.038	
+
+1.000	1.000	
+
+0.300	0.300	
+
+1.000	1.000	
+
+processing the datasetDTD 
+	lr: 0.1, epoch:20, num_important_channel0, lambda_ape: 0.3, best acc63.12 
+	{"data": "../Tip-Adapter/data", "test_sets": "DTD", "dataset_mode": "test", "arch": "RN50", "resolution": 224, "workers": 4, "batch_size": 32, "print_freq": 200, "gpu": 0, "selection_p": 0.1, "n_ctx": 4, "ctx_init": "a_photo_of_a", "load": null, "seed": 0, "n_shot": 8, "n_augview": 0, "ft": false, "use_searched_param": true, "beta": 5.5, "mapping": "bias", "position": "all", "optimizer": "adamw", "eps": 1e-08, "wd": 0.0001, "lr": 0.1, "epoch": 20, "shared_param": false, "num_important_channel": 0, "lambda_ape": 0.3, "memory_size": 50, "text_prompt": "tip_cupl", "log": "camera_ready_dmn_tf_searched_vit_0", "set_id": "DTD", "indice": 0}
+======== Result Summary ========
+params: bs	lr	selection_p
+params: 32	0.1	0.1
+		 [set_id] 		 Top-1 acc. 		 Top-1 local acc, 		 Top-1 global acc 		 Searched acc 		 beta 		 gama.
+DTD	mean	
+
+48.700	48.700	
+
+55.024	55.024	
+
+59.752	59.752	
+
+63.121	63.121	
+
+1.000	1.000	
+
+0.300	0.300	
+
+1.000	1.000	
+
+processing the datasetDTD 
+	lr: 0.1, epoch:20, num_important_channel0, lambda_ape: 0.3, best acc65.60 
+	{"data": "../Tip-Adapter/data", "test_sets": "DTD", "dataset_mode": "test", "arch": "RN50", "resolution": 224, "workers": 4, "batch_size": 32, "print_freq": 200, "gpu": 0, "selection_p": 0.1, "n_ctx": 4, "ctx_init": "a_photo_of_a", "load": null, "seed": 0, "n_shot": 16, "n_augview": 0, "ft": false, "use_searched_param": true, "beta": 5.5, "mapping": "bias", "position": "all", "optimizer": "adamw", "eps": 1e-08, "wd": 0.0001, "lr": 0.1, "epoch": 20, "shared_param": false, "num_important_channel": 0, "lambda_ape": 0.3, "memory_size": 50, "text_prompt": "tip_cupl", "log": "camera_ready_dmn_tf_searched_vit_0", "set_id": "DTD", "indice": 0}
+======== Result Summary ========
+params: bs	lr	selection_p
+params: 32	0.1	0.1
+		 [set_id] 		 Top-1 acc. 		 Top-1 local acc, 		 Top-1 global acc 		 Searched acc 		 beta 		 gama.
+DTD	mean	
+
+48.700	48.700	
+
+58.806	58.806	
+
+63.771	63.771	
+
+65.603	65.603	
+
+1.000	1.000	
+
+0.300	0.300	
+
+1.000	1.000	
+
