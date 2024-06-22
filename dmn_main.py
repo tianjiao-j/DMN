@@ -17,6 +17,7 @@ import torch.nn.functional as F
 import math
 import torch.nn as nn
 import os
+import sys
 
 try:
     from torchvision.transforms import InterpolationMode
@@ -202,7 +203,7 @@ class DualMem(nn.Module):
             logit_scale = model.logit_scale.exp()
             logits = logit_scale * img_feat @ filled_image_feat.t()
             return logits.softmax(dim=1)
-        elif image_classifier == 'similarity_weighted':  ## this is an instance adaptative method.
+        elif image_classifier == 'similarity_weighted':  ## this is an instance adaptative method. (default)
             ## calculate the cos similarity betweeen image feature and memory feature, and then weighted the memorized features according to similarity.
             ###################### 有一些memory 是空的，现在却往里面塞了一个self.global_bias， 这不合理，还要把它继续置空。
             img_feat_mappling = img_feat
@@ -348,6 +349,11 @@ def get_searched_param(set_id, n_shot, ft):
         return [0], [0.3], [0.1], [20]  ## not used.
 
 def main():
+    sys.argv = ['./dmn_main.py', '../Tip-Adapter/data', '--test_sets', 'DTD', '--selection_p', '0.1', '-a', 'RN50',
+                '-b', '32', '--ctx_init', 'a_photo_of_a', '--memory_size', '50', '--text_prompt', 'tip_cupl', '--log',
+                'test', '--gpu', '0', '--n_shot', '1', '--n_augview', '0', '--beta', '5.5',
+                '--use_searched_param', '--num_important_channel', '0', '--lambda_ape', '0.3', '--epoch', '20', '--lr',
+                '0.0001/0.001', '--ft']
     args = parser.parse_args()
     args.log = args.log + '_' + str(args.gpu)
     set_random_seed(args.seed)
