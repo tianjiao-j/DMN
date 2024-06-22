@@ -1,0 +1,23 @@
+processing the datasetDTD 
+	lr: 0.0001, epoch:100, num_important_channel0, lambda_ape: 0.3, best acc58.10 
+	{"data": "../Tip-Adapter/data", "test_sets": "DTD", "dataset_mode": "test", "arch": "RN50", "resolution": 224, "workers": 4, "batch_size": 32, "print_freq": 200, "gpu": 0, "selection_p": 0.1, "n_ctx": 4, "ctx_init": "a_photo_of_a", "load": null, "seed": 0, "n_shot": 1, "n_augview": 0, "ft": true, "use_searched_param": true, "beta": 5.5, "mapping": "bias", "position": "all", "optimizer": "adamw", "eps": 1e-08, "wd": 0.0001, "lr": 0.0001, "epoch": 100, "shared_param": false, "num_important_channel": 0, "lambda_ape": 0.3, "memory_size": 50, "text_prompt": "tip_cupl", "log": "test_0", "set_id": "DTD", "indice": 0}
+======== Result Summary ========
+params: bs	lr	selection_p
+params: 32	0.0001	0.1
+		 [set_id] 		 Top-1 acc. 		 Top-1 local acc, 		 Top-1 global acc 		 Searched acc 		 beta 		 gama.
+DTD	mean	
+
+56.501	56.501	
+
+56.265	56.265	
+
+30.910	30.910	
+
+58.097	58.097	
+
+1.000	1.000	
+
+0.100	0.100	
+
+0.100	0.100	
+
